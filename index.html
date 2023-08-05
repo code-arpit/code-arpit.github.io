@@ -18,7 +18,7 @@
     />
   </head>
   <body class="bg-dark">
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg navbar-fixed-top">
       <div class="container-fluid">
         <button
           class="navbar-toggler btn btn-primary bg-secondary"
@@ -34,14 +34,14 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
           <a class="navbar-brand text-light fs-3" href="#">code-arpit</a>
           <ul class="navbar-nav me-auto mb-lg-0 pt-1">
-            <li class="nav-item">
-              <a class="nav-link text-light" href="#">About</a>
+            <li class="nav-item scroll-link">
+              <a class="nav-link text-light" href="#about">About</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link text-light" href="#">Experiences</a>
+            <li class="nav-item scroll-link">
+              <a class="nav-link text-light" href="#experience">Experiences</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link text-light" href="#">Projects</a>
+            <li class="nav-item scroll-link">
+              <a class="nav-link text-light" href="#projects">Projects</a>
             </li>
           </ul>
         </div>
@@ -70,7 +70,7 @@
           <li class="nav-item icon">
             <a
               class="nav-link text-light px-2"
-              href="https://www.instagram.com/14arpitjain/"
+              href="https://www.instagram.com/_jain_arpit_14_/"
               target="_blank"
             >
               <i class="bi bi-instagram fs-4"></i>
@@ -85,29 +85,51 @@
               <i class="bi bi-telegram fs-4"></i>
             </a>
           </li>
-          <li>
-            <a
-              href="https://t.me/code_arpit"
-              class="fa fa-telegram"
-              target="_blank"
-            ></a>
-          </li>
         </ul>
         <!-- </div> -->
       </div>
     </nav>
-    <div class="container" id="welcome">
-      <div class="text-light">
-        <div id="welcome-font" class="d-flex flex-column text-center">
-          <h1>Hey! Arpit this side,</h1>
-          <h2>A Trekker by Passion & a Software Developer by Profession.</h2>
-          <p>&nbsp;</p>
-          <a
-            class="btn btn-lg page-scroll welcome-button text-secondary"
-            href="#about"
-          >
-            Know more about me
-          </a>
+    <div
+      class="container text-light"
+      style="padding: 8%; margin-top: 8%; margin-bottom: 8%;"
+      id="welcome"
+    >
+      <div id="welcome-font" class="d-flex flex-column text-center my-5">
+        <h1>Hey! Arpit this side,</h1>
+        <h2>A Trekker by Passion & a Software Developer by Profession.</h2>
+        <p>&nbsp;</p>
+        <a
+          class="btn btn-lg page-scroll welcome-button text-secondary"
+          href="#about"
+        >
+          Know more about me
+        </a>
+      </div>
+    </div>
+
+    <div class="container text-light py-5" id="about">
+      <div class="d-flex flex-column text-center">
+        <h1>About Me</h1>
+        <div class="container py-3">
+          <div class="row">
+            <div class="col">
+              <img
+                src="assets/IMG_20210117_121600_Original.jpg"
+                class="rounded float-start img-fluid"
+                alt="..."
+              />
+            </div>
+            <div class="col">
+              <p>
+                I am a Software Engineer with a strong foundation in multiple
+                programming languages and frameworks. With a problem solving
+                attitude and passion for develop new things, I design and
+                develop scalable, efficient and user-centric applications. My
+                expertise lies in backend development, but from time time, I
+                work as a full-stack developer.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
